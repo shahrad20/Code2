@@ -1,0 +1,14 @@
+a = float(input("عدد اول را وارد کنید: "))
+b = float(input("عدد دوم را وارد کنید: "))
+c = float(input("عدد سوم را وارد کنید: "))
+d = float(input("عدد چهارم را وارد کنید: "))
+
+max_number = a
+if b > max_number:
+    max_number = b
+if c > max_number:
+    max_number = c
+if d > max_number:
+    max_number = d
+
+print("بزرگترین عدد:", max_number)
